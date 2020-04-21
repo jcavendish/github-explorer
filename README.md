@@ -1,5 +1,20 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Github Explorer was idealized by Rocketseat as a way of teaching its students develop UI's with ReactJS.
+
+The functionalities are:
+
+ - Search and add gihub repositories.
+
+ - List added repositories
+
+ - Show repository details
+
+ - List repository issues
+
+ - Acces issue's github page
+
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -39,6 +54,4 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 ## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
