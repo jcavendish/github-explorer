@@ -30,15 +30,6 @@ const Dashboard: React.FC = () => {
   });
 
   useEffect(() => {
-    const localRepositories = localStorage.getItem(
-      '@GithubExplorer:repositories',
-    );
-    if (localRepositories) {
-      setRepositories(JSON.parse(localRepositories));
-    }
-  }, []);
-
-  useEffect(() => {
     localStorage.setItem(
       '@GithubExplorer:repositories',
       JSON.stringify(repositories),
